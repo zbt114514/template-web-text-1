@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { NextApiRequest, NextApiResponse } from "next";
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 interface BlogArticle {
   id: string;
   title: string;
