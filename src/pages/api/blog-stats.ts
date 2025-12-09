@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import fs from "fs";
 import path from "path";
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 interface TreeItem {
   name: string;
   isFolder: boolean;
