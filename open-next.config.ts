@@ -1,6 +1,4 @@
-import { defineConfig } from '@opennextjs/cloudflare';
-
-export default defineConfig({
-  // 指定构建输出目录，与你在 Cloudflare Pages 中设置的一致
-  outputDir: '.open-next',
-});
+// 这是一个简化的配置，避免导入问题
+export default {
+  outputDir: '.open-next'，
+};
