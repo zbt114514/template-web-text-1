@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { prisma } from "@/lib/prisma";
 import pusher from "@/lib/pusher";
-
+export const runtime = 'edge';
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
