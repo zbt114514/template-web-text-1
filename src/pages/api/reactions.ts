@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { prisma } from "@/lib/prisma";
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 const REACTION_TYPES = [
   "like",
   "cheer",
